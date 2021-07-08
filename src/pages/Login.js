@@ -9,7 +9,7 @@ const Login = () => {
     <Wrapper>
       <div className="container">
         <img src={loginImg} alt="github-user" />
-        <h1>github user</h1>
+        <h1>github analytics dashboard</h1>
         <button onClick={loginWithRedirect} className="btn">
           login / sign up
         </button>
@@ -25,6 +25,7 @@ const Wrapper = styled.section`
     width: 90vw;
     max-width: 600px;
     text-align: center;
+    color: #fff !important;
   }
   img {
     margin-bottom: 2rem;

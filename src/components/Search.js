@@ -62,14 +62,15 @@ const Wrapper = styled.div`
     border-radius: 5px;
     padding: 0.5rem;
     input {
+      background: #5c5489;
       border-color: transparent;
       outline-color: var(--clr-grey-10);
       letter-spacing: var(--spacing);
-      color: var(--clr-grey-3);
+      color: #fff;
       padding: 0.25rem 0.5rem;
     }
     input::placeholder {
-      color: var(--clr-grey-3);
+      color: #fff;
       text-transform: capitalize;
       letter-spacing: var(--spacing);
     }
@@ -79,13 +80,13 @@ const Wrapper = styled.div`
       padding: 0.25rem 0.5rem;
       text-transform: capitalize;
       letter-spacing: var(--spacing);
-      background: var(--clr-primary-5);
-      color: var(--clr-white);
+      background: #5c5489;
+      color: #fff;
       transition: var(--transition);
       cursor: pointer;
       &:hover {
-        background: var(--clr-primary-8);
-        color: var(--clr-primary-1);
+        background: #5c5484;
+        color: #fff;
       }
     }
 
