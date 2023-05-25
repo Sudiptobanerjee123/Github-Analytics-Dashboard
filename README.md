@@ -1,6 +1,9 @@
-## Github analytics
+## Github analytics dashboard
 
 Fetches and visualizes user data from githubs public API.
+
+![Screenshot (148)](https://github.com/Samson-Ludo/github-analytics/assets/43629180/ffa902a9-ca43-45e9-9a2f-be2ba5839aef)
+
 
 ## Styled Components
 
@@ -18,6 +21,7 @@ const ReactComponent = () => {
 
 
 const Wrapper = styled.htmlElement`
+
 write your styles here
 `
 export default ReactComponent
