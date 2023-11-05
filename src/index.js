@@ -6,8 +6,8 @@ import * as serviceWorker from "./serviceWorker";
 import { GithubProvider } from "./context/context";
 import { Auth0Provider } from "@auth0/auth0-react";
 
-const YOUR_AUTH0_DOMAIN = "samson-ludo.eu.auth0.com";
-const YOUR_AUTH0_CLIENT_ID = "ohcVf0OVQSLg6nqcmp0JlIgmJA5IDWMy";
+const YOUR_AUTH0_DOMAIN = "sudiptabanerjee.us.auth0.com";
+const YOUR_AUTH0_CLIENT_ID = "HBhuyA1hMFCDT3S2iiy6SrRKBPurtN4t";
 
 ReactDOM.render(
   <Auth0Provider
